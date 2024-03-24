@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 5px 0;
+}
+
+header p {
+    color: #666;
+}
+
+.content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    margin-top: 30px;
+}
+
+.about-me, .skills, .experience, .language, .education {
+    margin-bottom: 40px;
+}
+
+.skills ul, .language ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li, .language li {
+    margin-bottom: 5px;
+}
+
+.experience, .education {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.experience p, .education p {
+    margin-bottom: 10px;
+}
